@@ -1,0 +1,357 @@
+body {
+  font-family: "Proxima Nova";
+  font-size: 16.5px;
+  margin: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  height: 3000px;
+}
+
+.firstPage {
+  height: 828px;
+}
+
+.firstPage h2 {
+  margin-top: 50px;
+  font-weight: normal;
+  font-size: 74px;
+  line-height: 100px;
+  color: #ffffff;
+}
+
+.navBar {
+  height: 75px;
+}
+
+.navBar img {
+  float: left;
+  margin-top: 15px;
+}
+
+.navBar h1 {
+  margin-top: 30px;
+  margin-left: 10px;
+  display: inline-block;
+  font-family: "Proxima Nova";
+  font-weight: normal;
+  font-size: 16.5px;
+}
+
+.navBar ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.navBar li {
+  display: inline-block;
+  margin-left: 73px;
+  margin-top: -10px;
+}
+
+.header-img {
+  position: absolute;
+  z-index: -1;
+  margin-left: -240px;
+}
+
+.reservation {
+  margin-top: 388px;
+  height: 115px;
+  background-color: #ffffff;
+}
+
+.myButton {
+  box-shadow: inset 0px 0px 0px 0px #3dc21b;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0cbcc5), color-stop(1, #0cbcc5));
+  background: -webkit-linear-gradient(top, #0cbcc5 5%, #0cbcc5 100%);
+  background: linear-gradient(to bottom, #0cbcc5 5%, #0cbcc5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0cbcc5', endColorstr='#0cbcc5',GradientType=0);
+  background-color: #0cbcc5;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-weight: lighter;
+  font-size: 23px;
+  padding: 46px 60px;
+  text-decoration: none;
+}
+
+.secondPage {
+  height: 793px;
+}
+
+.secondPage h3 {
+  margin-top: 60px;
+  font-family: "Proxima Nova";
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+.secondPage p {
+  margin-top: 20px;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.secondPage img {
+  margin-top: 20px;
+}
+
+.place {
+  margin-left: 9px;
+}
+
+.myButton2 {
+  box-shadow: inset 0px 0px 0px 0px #3dc21b;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0cbcc5), color-stop(1, #0cbcc5));
+  background: -webkit-linear-gradient(top, #0cbcc5 5%, #0cbcc5 100%);
+  background: linear-gradient(to bottom, #0cbcc5 5%, #0cbcc5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0cbcc5', endColorstr='#0cbcc5',GradientType=0);
+  background-color: #0cbcc5;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-weight: lighter;
+  font-size: 11px;
+  padding: 10px 15px;
+  text-decoration: none;
+  float: right;
+  margin-right: 1px;
+}
+
+#vaisseau-img {
+  margin-top: 160px;
+  margin-left: -242px;
+  position: absolute;
+  z-index: -1;
+}
+
+.vaisseau {
+  margin-top: 200px;
+  color: #ffffff;
+}
+
+.myButton3 {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background-color: #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ef658a;
+  font-family: "Proxima Nova";
+  font-weight: lighter;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 10px 15px;
+  float: right;
+  text-decoration: none;
+}
+
+.thirdPage {
+  height: 793px;
+}
+
+.thirdPage h3 {
+  margin-top: 50px;
+  font-family: "Proxima Nova";
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+.thirdPage p {
+  font-size: 25px;
+  margin-top: 20px;
+  padding-left: 50px;
+  display: inline-block;
+}
+
+.thirdPage img {
+  margin-top: 50px;
+}
+
+.background-contact {
+  position: absolute;
+  z-index: -1;
+  margin-top: 92px;
+  margin-left: -238px;
+  width: 1430px;
+  height: 345px;
+  background-color: #0cbcc5;
+}
+
+.quality {
+  margin-left: 77px;
+}
+
+.contact {
+  margin-top: 95px;
+  height: 325px;
+}
+
+.contact h3 {
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-weight: lighter;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.contact span {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.contact div {
+  display: inline;
+}
+
+.myButton4 {
+  float: left;
+  margin-left: 356px;
+  background-color: #efc814;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-weight: lighter;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.input-name {
+  resize: none;
+  margin-top: 25px;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  font: normal 16px/normal "Proxima Nova", Times, serif;
+  background: rgba(252, 252, 252, 0);
+}
+
+.input-name::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.input-adress {
+  resize: none;
+  margin-top: 25px;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 274px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  font: normal 16px/normal "Proxima Nova", Times, serif;
+  background: rgba(252, 252, 252, 0);
+}
+
+.input-adress::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.input-message {
+  resize: none;
+  padding: 10px;
+  height: 120px;
+  width: 478px;
+  display: block;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font: normal 16px/normal "Proxima Nova", Times, serif;
+  background: rgba(252, 252, 252, 0);
+  margin-top: 5px;
+}
+
+.input-message::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.skytravelerhologram {
+  float: left;
+  margin-left: 500px;
+  margin-top: -200px;
+}
+
+.skytravelerhologram span {
+  position: relative;
+  top: -12px;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.phone {
+  float: left;
+  margin-left: 504px;
+  margin-top: -150px;
+}
+
+.phone span {
+  position: relative;
+  top: -12px;
+  left: 5px;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.newsletter {
+  float: left;
+  margin-left: 503px;
+  margin-top: -96px;
+}
+
+.newsletter .input-newsletter {
+  resize: none;
+  margin-top: 2px;
+  height: 30px;
+  width: 435px;
+  padding-left: 10px;
+  padding-top: 5px;
+  display: block;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font: normal 16px/normal "Proxima Nova", Times, serif;
+  background: rgba(252, 252, 252, 0);
+}
+
+.myButton5 {
+  float: left;
+  margin-left: 395px;
+  background-color: #efc814;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-weight: lighter;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.input-newsletter::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+
+/*Julie*/
