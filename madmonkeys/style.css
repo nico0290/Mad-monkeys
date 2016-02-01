@@ -1,0 +1,22 @@
+@font-face {
+    font-family:'Open Sans';
+    src:url(fonts/opensans-regular.ttf);
+}
+
+body {
+    background:#eee;
+    font-size:14px;
+    font-family:'Open Sans';
+}
+
+p {
+    font-family:'Open Sans';
+}
+
+p.bold {
+    font-weight:bold;
+}
+
+p.light {
+    font-weight:lighter;
+}
