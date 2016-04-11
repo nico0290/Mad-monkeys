@@ -1,0 +1,158 @@
+body {
+	height 			: 100vh; 
+	padding         : 110px;	
+	background-image: url(../images/maxresdefault.jpg);
+	background-size : cover;
+	background-repeat: no-repeat;
+}
+
+@font-face {
+	font-family : Samdan;
+	src 	    : url(../src/fonts/Samdan.ttf);
+}
+
+
+		/* MAD MONKEYS: */
+
+div span a {
+	text-decoration: none;
+}
+
+.mad-monkeys-container {
+	background-image  : url(../images/wood-button.png);
+	background-size   : cover;
+	background-repeat : no-repeat;
+	width		  	  : 597px;
+	height 		      : 127.5px;
+	position 		  : relative;
+	margin 			  : 0 auto;
+	text-align 		  : center;	
+}
+
+.mad-monkey-text {
+	position 	:relative;
+    top 		: 45px;
+	font-family : Samdan;
+	text-shadow : -2px 1px #C69158, 1px 2px #C69158, 2px 1px #C69158, 1px -2px #C69158;
+	font-size 	: 80px;
+	color 		: #5E300F;
+	line-height : 20px;
+}
+
+		/* START */
+
+.start-container {
+	background-image  : url(../images/wood-button.png);
+	background-size   : cover;
+	background-repeat : no-repeat;
+	width		  	  : 338.3px;
+	height 		      : 72.25px;
+	position 		  : relative;
+	margin 			  : 80px auto auto;	
+	text-align 		  : center;
+}
+
+.start-text {
+	position 	:relative;
+    top 		: 21px;
+	font-family : Samdan;
+	text-shadow : -2px 1px #C69158, 1px 2px #C69158, 2px 1px #C69158, 1px -2px #C69158;
+	font-size 	: 48px;
+	color 		: #5E300F;
+	line-height : 20px;
+}
+
+		/* LEADER BOARD */
+
+.leader-board-container {
+	background-image  : url(../images/wood-button.png);
+	background-size   : cover;
+	background-repeat : no-repeat;
+	width		  	  : 338.3px;
+	height 		      : 72.25px;
+	position 		  : relative;
+	margin 			  : 20px auto auto;	
+	text-align 		  : center;
+}
+
+.leader-board-text {
+	position 	:relative;
+    top 		: 8px;
+	font-family : Samdan;
+	text-shadow : -2px 1px #C69158, 1px 2px #C69158, 2px 1px #C69158, 1px -2px #C69158;
+	font-size 	: 48px;
+	color 		: #5E300F;
+}
+
+		/* OPTIONS */
+
+
+.options-text {
+	position 	:relative;
+    top 		: 21px;
+	font-family : Samdan;
+	text-shadow : -2px 1px #C69158, 1px 2px #C69158, 2px 1px #C69158, 1px -2px #C69158;
+	font-size 	: 48px;
+	color 		: #5E300F;
+	line-height : 20px;
+}
+
+
+/*
+ OPTIONS
+.options {
+	border 		: 3px solid #C69158;
+	font-family : Samdan;
+	font-size 	: 48px;
+	color		: #5E300F;
+	letter-spacing : 15.25px;
+	line-height : 59px;
+}
+
+
+ LEADER BOARD 
+	.leader-boar {
+	border 		: 3px solid #C69158;
+	font-family : Samdan;
+	font-size 	: 48px;
+	color 		: #5E300F;
+	letter-spacing : 15.25px;
+	line-height : 20px;
+}
+
+
+START
+	.start {
+	border 		: 3px solid #C69158;
+	font-family : Samdan;
+	font-size 	: 48px;
+	color 		: #5E300F;
+	letter-spacing : 15.25px;
+	line-height : 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

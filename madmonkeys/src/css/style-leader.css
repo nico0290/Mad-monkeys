@@ -1,0 +1,74 @@
+body{
+    background-image: url(../images/maxresdefault.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    width : 100vw;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 1087px;
+    height: 630px;
+    left: calc(50% - (1087px/2));
+    top: calc(50vh - (630px/2));
+}
+
+.bouton-rose{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 3;
+    margin-left: 890px;
+    cursor: pointer;
+}
+
+.leaderboard {
+    position: absolute;
+    top: -35px;
+    left: calc(50% - 350px);
+    z-index: 2;
+}
+
+.rank {
+    position: absolute;
+    left: 0; top: 0;
+}
+
+span{
+    position: absolute;
+    display: block;
+    width: 600px;
+    height: 105px;
+    top: -5px;
+    text-align: center;
+    left: calc(50% - 350px);
+    font-size: 65px;
+    font-family: Samdan;
+    z-index: 3;
+    letter-spacing: 5px;
+}
+
+.texte {
+    position: absolute;
+    height: calc(630px - 155px);
+    width: calc(100% - 300px);
+    top: 145px;
+    left: 100px;
+    box-sizing: border-box;
+}
+
+.texte table {
+    text-align: center;
+    width: 100%;
+    font-family: Samdan;
+    font-size: 35px;
+}
+
+.texte table th{
+    text-align: center;
+}
+
+.texte table tr{
+    margin-top: 10px;
+}
